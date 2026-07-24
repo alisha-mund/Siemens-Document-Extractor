@@ -1,0 +1,187 @@
+{
+  "document_type": "purchase_order",
+  "extraction_timestamp": "2026-07-23T15:52:09Z",
+  "extraction_methods": [
+    "pdfplumber",
+    "tesseract_ocr"
+  ],
+  "order_details": {
+    "po_number": {
+      "value": "4500-2026-778213",
+      "confidence": 0.97,
+      "source": "digital_text"
+    },
+    "po_date": {
+      "value": "2026-07-10",
+      "confidence": 0.97,
+      "source": "digital_text"
+    },
+    "buyer_name": {
+      "value": "Rafael Braun",
+      "confidence": 0.97,
+      "source": "digital_text"
+    },
+    "buyer_department": {
+      "value": "Digital Integration, TI STG",
+      "confidence": 0.97,
+      "source": "digital_text"
+    },
+    "supplier_name": {
+      "value": "TurboParts Manufacturing GmbH",
+      "confidence": 0.97,
+      "source": "digital_text"
+    },
+    "supplier_id": {
+      "value": "SUP-DE-90477",
+      "confidence": 0.97,
+      "source": "digital_text"
+    },
+    "currency": {
+      "value": "EUR",
+      "confidence": 0.97,
+      "source": "digital_text"
+    },
+    "payment_terms": {
+      "value": "Net 30 days",
+      "confidence": 0.97,
+      "source": "digital_text"
+    },
+    "incoterms": {
+      "value": "DAP Muelheim an der Ruhr",
+      "confidence": 0.97,
+      "source": "digital_text"
+    }
+  },
+  "line_items": [
+    {
+      "position": 1,
+      "description": {
+        "value": "Turbine blade set (Stage 3)",
+        "confidence": 0.97,
+        "source": "digital_text"
+      },
+      "quantity": {
+        "value": 4,
+        "confidence": 0.97,
+        "source": "digital_text"
+      },
+      "unit_price": {
+        "value": 12500.0,
+        "confidence": 0.97,
+        "source": "digital_text"
+      },
+      "total": {
+        "value": 50000.0,
+        "confidence": 0.97,
+        "source": "digital_text"
+      },
+      "line_valid": true
+    },
+    {
+      "position": 2,
+      "description": {
+        "value": "Rotor balancing service",
+        "confidence": 0.97,
+        "source": "digital_text"
+      },
+      "quantity": {
+        "value": 1,
+        "confidence": 0.97,
+        "source": "digital_text"
+      },
+      "unit_price": {
+        "value": 8200.0,
+        "confidence": 0.97,
+        "source": "digital_text"
+      },
+      "total": {
+        "value": 8200.0,
+        "confidence": 0.97,
+        "source": "digital_text"
+      },
+      "line_valid": true
+    },
+    {
+      "position": 3,
+      "description": {
+        "value": "Sensor calibration kit",
+        "confidence": 0.97,
+        "source": "digital_text"
+      },
+      "quantity": {
+        "value": 10,
+        "confidence": 0.97,
+        "source": "digital_text"
+      },
+      "unit_price": {
+        "value": 450.0,
+        "confidence": 0.97,
+        "source": "digital_text"
+      },
+      "total": {
+        "value": 4500.0,
+        "confidence": 0.97,
+        "source": "digital_text"
+      },
+      "line_valid": true
+    }
+  ],
+  "supplier_confirmation": {
+    "approved_by": {
+      "value": "Dr. Ing. Markus Feldmann",
+      "confidence": 0.94,
+      "source": "ocr"
+    },
+    "approval_role": {
+      "value": "Head of Quality Assurance",
+      "confidence": 0.94,
+      "source": "ocr"
+    },
+    "approval_date": {
+      "value": "2026-07-18",
+      "confidence": 0.94,
+      "source": "ocr"
+    },
+    "confirmed_delivery_date": {
+      "value": "2026-09-05",
+      "confidence": 0.94,
+      "source": "ocr"
+    },
+    "warranty_period": {
+      "value": "24 months from commissioning",
+      "confidence": 0.94,
+      "source": "ocr"
+    },
+    "serial_number": {
+      "value": "SGT-800-2026-DE-004417",
+      "confidence": 0.94,
+      "source": "ocr"
+    },
+    "inspection_result": {
+      "value": "PASSED - ClassA",
+      "confidence": 0.94,
+      "source": "ocr"
+    },
+    "special_note": {
+      "value": "Unit certified for H2-ready operation",
+      "confidence": 0.94,
+      "source": "ocr"
+    },
+    "signature_present": {
+      "value": true,
+      "confidence": 0.85,
+      "source": "ocr"
+    }
+  },
+  "validation": {
+    "grand_total_stated": {
+      "value": 62700.0,
+      "confidence": 0.97,
+      "source": "digital_text"
+    },
+    "grand_total_computed": 62700.0,
+    "totals_consistent": true,
+    "all_lines_valid": true
+  },
+  "warnings": []
+}
