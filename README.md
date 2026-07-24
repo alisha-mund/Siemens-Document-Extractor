@@ -68,7 +68,8 @@ The service assumes every upload is a purchase order. A real system would need a
 I tested the extraction logic and the API locally but didn't write automated tests that build the Docker image and run the full pipeline inside it. In a real project, that's part of the CI/CD pipeline.
 
 **The "ClassA" OCR artifact.**
-Tesseract reads "Class A" as "ClassA" (missing space). I could add post-processing rules for known OCR artifacts, but that just adds more complexity for every pattern. The better would probably be an LLM-based cleanup step: run the OCR output through a small model to fix obvious errors. But the current implementation doesnot have that layer yet.
+Tesseract reads "Class A" as "ClassA" (missing space). I could add post-processing rules for known OCR artifacts, but that just adds more complexity for every pattern. The better would probably be an LLM-based cleanup step: run the OCR output through a small model to fix obvious errors. But the current implementation does not have that layer yet.
+
 ---
 
 ## Example Output
